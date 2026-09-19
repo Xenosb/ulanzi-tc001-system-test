@@ -1,0 +1,5 @@
+/ {
+	zephyr,user {
+		io-channels = <&adc0 6>, <&adc0 7>;
+	};
+};
